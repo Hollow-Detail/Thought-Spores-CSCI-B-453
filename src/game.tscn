@@ -209,6 +209,7 @@ _data = {
 }
 
 [node name="Game" type="Node2D"]
+position = Vector2(-1259, 2596)
 script = ExtResource("1_bgypv")
 
 [node name="Levels" parent="." instance=ExtResource("2_sygxv")]

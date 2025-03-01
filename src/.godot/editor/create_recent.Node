@@ -1,3 +1,5 @@
+CollisionShape2D
+RigidBody2D
 Node2D
 Node
 Camera2D
@@ -10,5 +12,3 @@ PanelContainer
 CenterContainer
 Panel
 CanvasGroup
-Control
-Sprite2D

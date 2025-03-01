@@ -3,7 +3,7 @@
 [ext_resource type="PackedScene" uid="uid://c7kquvcy63jd2" path="res://Fellow Thoughts/fellow_thoughts.tscn" id="1_dsgwm"]
 [ext_resource type="PackedScene" uid="uid://dale33s3s8xg6" path="res://Repulsing Thoughts/repulsing_thoughts.tscn" id="2_bb60j"]
 
-[node name="ExtraEntities" type="Node2D"]
+[node name="ExtraEntities" type="Node2D" groups=["fellow_thoughts"]]
 
 [node name="FellowThoughts" parent="." instance=ExtResource("1_dsgwm")]
 position = Vector2(1074, -1067)

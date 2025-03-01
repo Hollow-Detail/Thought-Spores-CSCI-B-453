@@ -1,3 +1,11 @@
 res://default_bus_layout.tres
-res://Player/player.tscn
 res://game.tscn
+res://Player/player.tscn
+res://Fellow Thoughts/fellow_thoughts.gd
+res://Fellow Thoughts/fellow_sprite.gd
+res://Player/particles.tscn
+res://Player/player.gd
+res://Audio/split_audio.tscn
+res://Repulsing Thoughts/repulsing_thoughts.tscn
+res://Fellow Thoughts/fellow_thoughts.tscn
+res://Levels/extra_entities.tscn
