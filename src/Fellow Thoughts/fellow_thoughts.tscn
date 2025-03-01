@@ -143,7 +143,6 @@ script = ExtResource("5_vcb78")
 script = ExtResource("6_aqdmk")
 to = NodePath("../../Following")
 event = &"body_entered"
-delay_in_seconds = "0.0"
 
 [node name="Following" type="Node" parent="StateChart/Root"]
 script = ExtResource("5_vcb78")
@@ -152,13 +151,11 @@ script = ExtResource("5_vcb78")
 script = ExtResource("6_aqdmk")
 to = NodePath("../../Idle")
 event = &"body_exited"
-delay_in_seconds = "0.0"
 
 [node name="ToMerge" type="Node" parent="StateChart/Root/Following"]
 script = ExtResource("6_aqdmk")
 to = NodePath("../../Merging")
 event = &"merge"
-delay_in_seconds = "0.0"
 
 [node name="Merging" type="Node" parent="StateChart/Root"]
 script = ExtResource("5_vcb78")
@@ -167,7 +164,6 @@ script = ExtResource("5_vcb78")
 script = ExtResource("6_aqdmk")
 to = NodePath("../../Idle")
 event = &"to_idle"
-delay_in_seconds = "0.0"
 
 [node name="MergeAuio" parent="." instance=ExtResource("7_mjvlp")]
 unique_name_in_owner = true

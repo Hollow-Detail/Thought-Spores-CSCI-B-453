@@ -438,13 +438,11 @@ script = ExtResource("5_6labq")
 script = ExtResource("6_jci78")
 to = NodePath("../../Merging")
 event = &"merge"
-delay_in_seconds = "0.6"
 
 [node name="ToSplitDash" type="Node" parent="StateChart/Root/Idle"]
 script = ExtResource("6_jci78")
 to = NodePath("../../SplitDash")
 event = &"to_split_dash"
-delay_in_seconds = "0.0"
 
 [node name="Merging" type="Node" parent="StateChart/Root"]
 script = ExtResource("5_6labq")
@@ -453,13 +451,11 @@ script = ExtResource("5_6labq")
 script = ExtResource("6_jci78")
 to = NodePath("../../Idle")
 event = &"to_idle"
-delay_in_seconds = "0.0"
 
 [node name="ToSplitDash" type="Node" parent="StateChart/Root/Merging"]
 script = ExtResource("6_jci78")
 to = NodePath("../../SplitDash")
 event = &"to_split_dash"
-delay_in_seconds = "0.0"
 
 [node name="SplitDash" type="Node" parent="StateChart/Root"]
 script = ExtResource("5_6labq")
@@ -467,7 +463,6 @@ script = ExtResource("5_6labq")
 [node name="ToIdle" type="Node" parent="StateChart/Root/SplitDash"]
 script = ExtResource("6_jci78")
 to = NodePath("../../Idle")
-delay_in_seconds = "0.4"
 
 [node name="HitAudio" type="AudioStreamPlayer2D" parent="."]
 unique_name_in_owner = true

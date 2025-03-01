@@ -150,7 +150,6 @@ script = ExtResource("5_y8yyh")
 script = ExtResource("6_10nxi")
 to = NodePath("../../Following")
 event = &"body_entered"
-delay_in_seconds = "0.0"
 
 [node name="Following" type="Node" parent="StateChart/Root"]
 script = ExtResource("5_y8yyh")
@@ -159,7 +158,6 @@ script = ExtResource("5_y8yyh")
 script = ExtResource("6_10nxi")
 to = NodePath("../../Idle")
 event = &"body_exited"
-delay_in_seconds = "0.0"
 
 [node name="SplitAudio" parent="." instance=ExtResource("7_w5woy")]
 unique_name_in_owner = true

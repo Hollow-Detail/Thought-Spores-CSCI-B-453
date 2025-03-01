@@ -398,7 +398,6 @@ script = ExtResource("14_opgdf")
 script = ExtResource("15_3r5ei")
 to = NodePath("../../Play")
 event = &"play"
-delay_in_seconds = "0.0"
 
 [node name="Play" type="Node" parent="StateChart/Root"]
 script = ExtResource("14_opgdf")
@@ -407,7 +406,6 @@ script = ExtResource("14_opgdf")
 script = ExtResource("15_3r5ei")
 to = NodePath("../../Start")
 event = &"start"
-delay_in_seconds = "0.0"
 
 [connection signal="pressed" from="StartScreen/MarginContainer/VBoxContainer/VBoxContainer2/PlayButton" to="." method="_on_play_button_pressed"]
 [connection signal="pressed" from="StartScreen/MarginContainer/VBoxContainer/VBoxContainer2/RestartButton" to="." method="_on_restart_button_pressed"]

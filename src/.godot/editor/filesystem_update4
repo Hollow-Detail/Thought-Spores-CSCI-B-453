@@ -9,3 +9,4 @@ res://Audio/split_audio.tscn
 res://Repulsing Thoughts/repulsing_thoughts.tscn
 res://Fellow Thoughts/fellow_thoughts.tscn
 res://Levels/extra_entities.tscn
+res://addons/godot_state_charts/transition.gd
